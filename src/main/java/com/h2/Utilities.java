@@ -30,7 +30,7 @@ public class Utilities {
             out=Float.parseFloat(in);
         }
         catch (NumberFormatException e) {
-           throw new IllegalArgumentException(in + " cannot be converted into a 'float' value.");
+           throw new IllegalArgumentException(in + " cannot be converted into a 'float' value. Exiting program.");
         }
         return out;
     }
